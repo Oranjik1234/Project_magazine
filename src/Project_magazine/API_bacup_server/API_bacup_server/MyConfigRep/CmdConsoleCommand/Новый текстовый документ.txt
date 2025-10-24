@@ -1,0 +1,17 @@
+{
+  "DatabaseConfig": {
+    "User": "yourUsername",
+    "Password": "yourPassword",
+    "Host": "yourHost",
+    "DatabaseName": "yourDatabaseName"
+  },
+  "BackupConfig": {
+    "FullBackupPath": "C:\\path\\to\\backup\\FullBackup",
+    "IncrementalBackupPath": "C:\\path\\to\\backup\\Increment",
+    "RetentionDays": 7
+  },
+  "CmdConsoleConfig": {
+    "DumpCommand": "mysqldump --user={User} --password={Password} --host={Host} --databases {DatabaseName} > {FilePath}",
+    "RestoreCommand": "mysql --user={User} --password={Password} --host={Host} {DatabaseName} < {FilePath}"
+  }
+}

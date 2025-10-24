@@ -1,0 +1,5 @@
+{
+    "AppName": "MyApplication",
+    "AppPort": 5000,
+    "TargetAddresses": []
+}

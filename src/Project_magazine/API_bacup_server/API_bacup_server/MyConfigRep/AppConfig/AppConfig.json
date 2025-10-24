@@ -1,0 +1,17 @@
+{
+  "DatabaseConfig": {
+    "User": "root",
+    "Password": "787898",
+    "Host": "localhost:3308",
+    "DatabaseName": "Bacup_Db_Api"
+  },
+  "BackupConfig": {
+    "FullBackupPath": "C:\Users\alex\source\repos\API_bacup_server\API_bacup_server\BacupsRep\FullBacup",
+    "IncrementalBackupPath":"C:\Users\alex\source\repos\API_bacup_server\API_bacup_server\BacupsRep\Increment" ,
+    "RetentionDays": 7
+  },
+  "CmdConsoleConfig": {
+    "DumpCommand": "mysqldump --user={User} --password={Password} --host={Host} --databases {DatabaseName} > {FilePath}",
+    "RestoreCommand": "mysql --user={User} --password={Password} --host={Host} {DatabaseName} < {FilePath}"
+  }
+}
