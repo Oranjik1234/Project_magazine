@@ -11,7 +11,7 @@ namespace API_bacup_server
 		public string DatabaseName { get; set; }
 		public string BackupDirectory { get; set; }
 
-		public string pathToDump = "";//  пиздец - установить адрес условный моего репозитория с бэкапом полный адрес я буду писать позже
+		public string pathToDump = "";//  TODO - установить адрес условный моего репозитория с бэкапом полный адрес я буду писать позже
 
 		public DumpControl(IConfiguration configuration)	
 		{

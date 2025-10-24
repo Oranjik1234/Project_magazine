@@ -128,7 +128,7 @@ namespace Base_Project
 
 			private string fileName = $"Sell_Log{DateTime.UtcNow:yyyyMMdd_HHmmss_ff}.Json";
 
-			private string filePath = "C:\\Users\\alex\\Downloads\\Test_Program_Log";//Пиздец -  абсолютные адреса уникальные для моего компьютера во время теста (убрать и заменить на условные)
+			private string filePath = "C:\\Users\\alex\\Downloads\\Test_Program_Log";//TODO -  абсолютные адреса уникальные для моего компьютера во время теста (убрать и заменить на условные)
 
 
 			public int countOfIDs{  get; set; }
